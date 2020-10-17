@@ -103,16 +103,16 @@ $('.tank4').createWaterBall({
 			height:loading_height
 		},
 		wave_config:{
-            waveWidth:0.02,
-            waveHeight:5
+            waveWidth:0.05,
+            waveHeight:50
         },
-        data_range:[30,70,100],
+        data_range:[30,60,100],
         isLoading:true,
-        nowRange:70,
-        targetRange:70
+        nowRange:60,
+        targetRange:65
 	});
 	setTimeout(function(){
-		$('.loading').createWaterBall('updateRange',80);
+		$('.loading').createWaterBall('updateRange',88);
 	},1000);
 	$('.waterBall1').createWaterBall({
 		csv_config:{
@@ -124,7 +124,7 @@ $('.tank4').createWaterBall({
             waveHeight:5
         },
         data_range:[40,50,100],
-        targetRange:45
+        targetRange:50
 	});
 </script>
 
